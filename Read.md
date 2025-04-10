@@ -2,9 +2,3 @@
 컨테이너를 더욱 편하고 쉽게 관리하고 빌드 할 수 있게 도와주는?
 런타임 플랫폼이다
 
-백엔드는
-javascript
-node.js
-spring boot
-sql
-react가 있다
