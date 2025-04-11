@@ -1,6 +1,6 @@
 FROM python:3.7-slim
 
-WORKDIR /app나 이거 main에서 수정함
+WORKDIR /app여긴 docker 브랜치에서 수정할거얌
 
 COPY . .
 
