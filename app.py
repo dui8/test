@@ -9,5 +9,9 @@ def hello_world():
 def v1():
     return '{status 200 : ok}'
 
+@app.rout('/v2')
+def v1():
+    return 'health'
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
