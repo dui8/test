@@ -11,7 +11,7 @@ def v1():
 
 @app.rout('/v2')
 def v1():
-    return 'health check'
+    return 'health checkaaaaaaaaaa'
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
