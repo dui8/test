@@ -4,3 +4,6 @@
 오리진에 영향이 가면 안되기 때문에 필요
 안정성을 챙길 수 있다.
 일단 conflict 피해야하니까 이렇게
+ddd
+git config --global user.name "dui8"
+git config --global user.email lmmin1103@gmail.com
