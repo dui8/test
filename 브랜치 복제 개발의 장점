@@ -5,5 +5,3 @@
 안정성을 챙길 수 있다.
 일단 conflict 피해야하니까 이렇게
 ddd
-git config --global user.name "dui8"
-git config --global user.email lmmin1103@gmail.com
