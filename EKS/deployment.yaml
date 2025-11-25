@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  namespace: eks-main-app
+  name: deployment-main
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: app-main
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: app-main
+    spec:
+      containers:
+      - image: 418295679352.dkr.ecr.ap-northeast-2.amazonaws.com/main:latest
+        imagePullPolicy: Always
+        name: app-main
+        ports:
+        - containerPort: 80
