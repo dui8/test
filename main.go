@@ -10,7 +10,7 @@ func hello(w http.ResponseWriter, req *http.Request) {
 }
 
 func dummy(w http.ResponseWriter, req *http.Request) {
-    fmt.Fprint(w, "Github aadew1actions")
+    fmt.Fprint(w, "BLUE")
 }
 
 func main() {
